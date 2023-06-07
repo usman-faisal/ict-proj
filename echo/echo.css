@@ -1,0 +1,39 @@
+.input-box {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+}
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 2rem;
+  transition: all 0.2s ease;
+}
+.output-box {
+  position: relative;
+  width: 100%;
+}
+.output {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 2rem;
+  transition: all 0.2s ease;
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.show {
+  opacity: 1;
+  transform: translate(0);
+}

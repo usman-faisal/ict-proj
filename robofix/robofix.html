@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="robofix.css" />
+    <link rel="stylesheet" href="../css/utils.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cursor" id="div"></div>
+    <header class="header">
+      <a href="/" class="logo">ROBO QUERY</a>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="/"> Home </a>
+          </li>
+          <li>
+            <a class="active" href="#"> RoboFix </a>
+          </li>
+          <li>
+            <a href="#"> About us </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section">
+        <div class="section-container">
+          <h2 class="heading-secondary">ROBOFIX</h2>
+          <ul class="section-content section-content-list">
+            <li>
+              Chatbot service: designed to engage with customers in real-time,
+              providing quick and accurate responses to inquiries and concerns,
+              improving customer satisfaction and reducing workload on customer
+              service team.
+            </li>
+            <li>
+              Image generator tool: easily create custom images for website or
+              social media, generate professional-quality images to help
+              business stand out online.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-container">
+          <!--            <h2 class="heading-secondary">FEATURES</h2>-->
+          <div class="section-content flex-center gap-sm">
+            <div onclick="location.pathname='/echo/echo.html'" class="card">
+              <h3>ECHO</h3>
+              <img src="../assets/images/echo.webp" class="card-img" alt="" />
+              <p>Ask me anything!</p>
+            </div>
+            <div
+              onclick="location.pathname='/davinci/davinci.html'"
+              class="card"
+            >
+              <h3>DAVINCI</h3>
+              <img
+                class="card-img"
+                src="../assets/images/image-creation.webp"
+                alt=""
+              />
+              <p>Create beautiful images!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../js/intersectionObserver.js"></script>
+    <script src="../js/mouseCursor.js"></script>
+  </body>
+</html>

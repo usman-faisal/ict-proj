@@ -1,0 +1,18 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gap-sm {
+  gap: 2rem;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+.mb-sm {
+  margin-bottom: 1rem;
+}

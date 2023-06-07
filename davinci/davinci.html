@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/general.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/utils.css" />
+    <link rel="stylesheet" href="../echo/echo.css" />
+    <link rel="stylesheet" href="./davinci.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cursor" id="div"></div>
+    <header class="header">
+      <a href="/" class="logo">ROBO QUERY</a>
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="/"> Home </a>
+          </li>
+          <li>
+            <a class="active" href="#"> RoboFix </a>
+          </li>
+          <li>
+            <a href="#"> About us </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section flex-col gap-sm">
+        <div class="input-box">
+          <input id="text" placeholder="Add any topic here" type="text" />
+          <button id="send-btn" class="button">Generate</button>
+        </div>
+
+        <div class="output-box text-center"></div>
+      </section>
+    </main>
+    <script src="../js/mouseCursor.js"></script>
+    <script src="./davinci.js" type="module"></script>
+  </body>
+</html>
