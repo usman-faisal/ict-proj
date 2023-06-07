@@ -1,8 +1,11 @@
-.ouput-box {
+.output-box {
   text-align: center;
+  object-fit: cover;
+  height: 10rem;
+  width: 20rem;
 }
 .img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 12px;
 }
